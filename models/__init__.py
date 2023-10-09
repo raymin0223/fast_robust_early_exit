@@ -1,0 +1,4 @@
+from .modeling_t5 import EffT5ForConditionalGeneration as T5ForConditionalGeneration
+from .deploying_t5 import DeployT5ForConditionalGeneration
+from .modeling_longt5 import EffLongT5ForConditionalGeneration as LongT5ForConditionalGeneration
+from .deploying_longt5 import DeployLongT5ForConditionalGeneration
