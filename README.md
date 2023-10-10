@@ -1,10 +1,12 @@
 # Fast and Robust Early-Exiting (EMNLP 2023)
 
+<a href=‘https://arxiv.org/abs/2310.05424’><img src=‘https://img.shields.io/badge/Paper-arXiv:2310.05424-Green’></a><a href=#bibtex><img src=‘https://img.shields.io/badge/Paper-BibTex-yellow’></a>
+
 <p align="center">
 <img width="1394" src="https://github.com/raymin0223/fast_robust_early_exit/assets/50742281/0aba3284-951c-4342-af1f-16dc70030654">
 </p>
 
-**Fast and Robust Early-Exiting Framework for Autoregressive Language Models with Synchronized Parallel Decoding**       
+[**Fast and Robust Early-Exiting Framework for Autoregressive Language Models with Synchronized Parallel Decoding**](https://arxiv.org/abs/2310.05424)       
 [Sangmin Bae](https://www.raymin0223.com)$^\*$,
 [Jongwoo Ko](https://sites.google.com/view/jongwooko)$^\*$,
 [Hwanjun Song](https://songhwanjun.github.io)$^\dagger$,
@@ -82,6 +84,14 @@ Then, you can get the results by running the last cell in [ipynb file](gpt_eval/
 If you find this repo useful for your research, please consider citing our paper:
 
 ```
+@misc{bae2023fast,
+      title={Fast and Robust Early-Exiting Framework for Autoregressive Language Models with Synchronized Parallel Decoding}, 
+      author={Sangmin Bae and Jongwoo Ko and Hwanjun Song and Se-Young Yun},
+      year={2023},
+      eprint={2310.05424},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 ```
 
 ## Contact
