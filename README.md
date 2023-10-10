@@ -1,6 +1,7 @@
 # Fast and Robust Early-Exiting (EMNLP 2023)
 
-<a href=‘https://arxiv.org/abs/2310.05424’><img src=‘https://img.shields.io/badge/Paper-arXiv:2310.05424-Green’></a><a href=#bibtex><img src=‘https://img.shields.io/badge/Paper-BibTex-yellow’></a>
+<a href="https://arxiv.org/abs/2310.05424"><img src="https://img.shields.io/badge/Paper-arXiv:2310.05424-Green"></a>
+<a href=#bibtex><img src="https://img.shields.io/badge/Paper-BibTex-yellow"></a>
 
 <p align="center">
 <img width="1394" src="https://github.com/raymin0223/fast_robust_early_exit/assets/50742281/0aba3284-951c-4342-af1f-16dc70030654">
