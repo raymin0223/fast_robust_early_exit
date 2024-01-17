@@ -1,11 +1,11 @@
 CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.run --nproc_per_node=2 \
     run_summarization.py \
-    --model_name_or_path t5-large \
+    --model_name_or_path google/long-t5-tglobal-base \
     --do_train \
     --do_eval \
     --dataset_name big_patent \
     --dataset_config_name e \
-    --output_dir ./save/bigpatent_t5_large/ \
+    --output_dir ./save/bigpatent_longt5_base/ \
     --per_device_train_batch_size 2 \
     --per_device_eval_batch_size 16 \
     --overwrite_output_dir \
@@ -31,11 +31,11 @@ CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.run --nproc_per_node=2 \
 
 CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.run --nproc_per_node=1 \
     run_summarization.py \
-    --model_name_or_path ./save/bigpatent_t5_large/ \
+    --model_name_or_path ./save/bigpatent_longt5_base/ \
     --do_eval \
     --dataset_name big_patent \
     --dataset_config_name e \
-    --output_dir ./save/bigpatent_t5_large/ \
+    --output_dir ./save/bigpatent_longt5_base/ \
     --per_device_eval_batch_size 1 \
     --deploy_scenario True \
     --use_synchronize True \
