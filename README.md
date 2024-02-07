@@ -19,6 +19,11 @@
 - We propose **FREE**, consists of (1) shallow-deep module, (2) synchronized parallel decoding, and (3) adaptive threshold estimator.
 - In contrast to conventional approaches, FREE achieved larger inference speedup on extensive generation tasks.
 
+## 🚀 Updates
+
+- [ ] Implement CALM and FREE on decoder-only models
+- [ ] Release finetuned checkpoints
+- [x] (24.01.26) Won 🥈Silver award from Samsung Humantech Paper Awards
 
 ## Requirements
 Install the necessary packages with: 
