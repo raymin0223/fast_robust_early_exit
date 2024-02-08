@@ -22,7 +22,7 @@
 ## 🚀 Updates
 
 - [ ] Implement CALM and FREE on decoder-only models
-- [ ] Release finetuned checkpoints
+- [x] (24.02.08) Release [**finetuned checkpoints**](https://drive.google.com/drive/folders/1covxgJtIbFgH_xI-sXIuashX2zsY42w_?usp=share_link)
 - [x] (24.01.26) Won 🥈Silver award from Samsung Humantech Paper Awards
 
 ## Requirements
@@ -76,6 +76,7 @@ Please refer [additional_args](util/additional_args.py) for more details.
 
 
 ### Results
+
 FREE demonstrated robust performance and a larger AUC across various datasets and models, specifically with T5-large and T5-3B.
 <p align="center">
 <img width="1194" src="https://github.com/raymin0223/fast_robust_early_exit/assets/50742281/d87b9d8c-f774-4111-808d-10df97539b42">
@@ -85,6 +86,12 @@ FREE demonstrated robust performance and a larger AUC across various datasets an
 We conducted two human-like evaluation methods, Likert scale scoring and pairwise comparison (refer to [this paper](https://arxiv.org/abs/2304.02554)).     
 After correctly making input files through [ipynb file](gpt_eval/gpt_eval_example.ipynb), run `bash gpt_eval.sh` with your own OpenAI API_KEY.    
 Then, you can get the results by running the last cell in [ipynb file](gpt_eval/gpt_eval_example.ipynb).
+
+### Checkpoints
+
+
+We share finetuned checkpoints in [google drive](https://drive.google.com/drive/folders/1covxgJtIbFgH_xI-sXIuashX2zsY42w_?usp=share_link).
+
 
 ## BibTeX
 If you find this repo useful for your research, please consider citing our paper:
