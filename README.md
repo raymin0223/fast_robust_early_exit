@@ -36,7 +36,7 @@ $ pip install -r requirements.txt
 We experimented with 4 summarization tasks, 1 question answering task, and 1 machine translation task.     
 Please see the [scripts](scripts/) and run shell files to train or evaluate on each dataset.    
 ```bash
-$ python run_[TASK_NAME]_[DATASET_NAME].sh
+$ bash run_[TASK_NAME]_[DATASET_NAME].sh
 ```
 
 ### Methods
