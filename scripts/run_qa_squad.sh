@@ -1,5 +1,5 @@
 CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.run --nproc_per_node=2 \
-    run_summarization.py \
+    run_question_answering.py \
     --model_name_or_path t5-large \
     --do_train \
     --do_eval \
@@ -30,7 +30,7 @@ CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.run --nproc_per_node=2 \
 
 
 CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.run --nproc_per_node=1 \
-    run_summarization.py \
+    run_question_answering.py \
     --model_name_or_path ./save/squad_t5_large/ \
     --do_eval \
     --dataset_name squad \
