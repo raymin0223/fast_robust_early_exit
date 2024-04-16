@@ -90,7 +90,8 @@ Then, you can get the results by running the last cell in [ipynb file](gpt_eval/
 ### Checkpoints
 
 
-We share finetuned checkpoints in [google drive](https://drive.google.com/drive/folders/1covxgJtIbFgH_xI-sXIuashX2zsY42w_?usp=share_link).
+We share finetuned checkpoints in [google drive](https://drive.google.com/drive/folders/1covxgJtIbFgH_xI-sXIuashX2zsY42w_?usp=share_link).     
+Note that you must download `tokenizer.json` for each model individually from HuggingFace to run it without errors. (refer to Issue [#3](https://github.com/raymin0223/fast_robust_early_exit/issues/3))
 
 
 ## BibTeX
