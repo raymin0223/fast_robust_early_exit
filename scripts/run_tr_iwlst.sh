@@ -1,5 +1,5 @@
 CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.run --nproc_per_node=4 \
-    run_summarization.py \
+    run_translation.py \
     --model_name_or_path mt5-large \
     --do_train \
     --do_eval \
@@ -36,7 +36,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.run --nproc_per_node=4 
 
 
 CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.run --nproc_per_node=1 \
-    run_summarization.py \
+    run_translation.py \
     --model_name_or_path ./save/iwslt_t5_large/ \
     --do_eval \
     --dataset_name iwslt2017 \
