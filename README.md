@@ -62,7 +62,7 @@ Please refer [additional_args](util/additional_args.py) for more details.
 - `--shallow_exit_layer [int]`: set the number of layers for the shallow model
 - `--shallow2deep_conf_type softmax`: set the confidence measure to softmax values
 - `--shallow2deep_conf_threshold [float]`: threshold value to decide whether to exit or not in the shallow model
-- `--use_adap_threshold True`: use adaptive threshold estimator, where the initial threshold is set to shallow2deep_conf_threshold
+- `--use_adapt_threshold True`: use adaptive threshold estimator, where the initial threshold is set to shallow2deep_conf_threshold
  
 #### Evaluation for CALM: 
 - `--deploy_scenario True`: this should be always True to use [deploying_[MODEL_NAME].py](models/) for FREE or CALM
