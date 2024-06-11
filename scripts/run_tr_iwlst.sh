@@ -54,7 +54,7 @@ CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.run --nproc_per_node=1 \
     # --shallow_exit_layer 6 \
     # --shallow2deep_conf_type softmax \
     # --shallow2deep_conf_threshold 0.9 \
-    # --use_adap_threshold True \ # to use adaptive threshold
+    # --use_adapt_threshold True \ # to use adaptive threshold
 
     # CALM
     # --use_early_exit True \
