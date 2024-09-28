@@ -12,7 +12,7 @@
 [Jongwoo Ko](https://sites.google.com/view/jongwooko)$^\*$,
 [Hwanjun Song](https://songhwanjun.github.io)$^\dagger$,
 [Se-Young Yun](https://fbsqkd.github.io)$^\dagger$<br/>
-\* equal contribution $&nbsp$ $\dagger$ corresponding author
+\* equal contribution   $\dagger$ corresponding author
 
 - **Early-Exiting** dynamically allocates computation paths based on the complexity of generation for each token.
 - Conventional framework failed to show actual speedup due to the large number of exit points and state copying mechanism.
@@ -98,13 +98,26 @@ Note that you must download `tokenizer.json` for each model individually from Hu
 If you find this repo useful for your research, please consider citing our paper:
 
 ```
-@misc{bae2023fast,
-      title={Fast and Robust Early-Exiting Framework for Autoregressive Language Models with Synchronized Parallel Decoding}, 
-      author={Sangmin Bae and Jongwoo Ko and Hwanjun Song and Se-Young Yun},
-      year={2023},
-      eprint={2310.05424},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{DBLP:conf/emnlp/BaeKSY23,
+  author       = {Sangmin Bae and
+                  Jongwoo Ko and
+                  Hwanjun Song and
+                  Se{-}Young Yun},
+  editor       = {Houda Bouamor and
+                  Juan Pino and
+                  Kalika Bali},
+  title        = {Fast and Robust Early-Exiting Framework for Autoregressive Language
+                  Models with Synchronized Parallel Decoding},
+  booktitle    = {Proceedings of the 2023 Conference on Empirical Methods in Natural
+                  Language Processing, {EMNLP} 2023, Singapore, December 6-10, 2023},
+  pages        = {5910--5924},
+  publisher    = {Association for Computational Linguistics},
+  year         = {2023},
+  url          = {https://doi.org/10.18653/v1/2023.emnlp-main.362},
+  doi          = {10.18653/V1/2023.EMNLP-MAIN.362},
+  timestamp    = {Fri, 12 Apr 2024 13:11:38 +0200},
+  biburl       = {https://dblp.org/rec/conf/emnlp/BaeKSY23.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 ```
 
